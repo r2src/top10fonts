@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{charter}
+%\usepackage{helvet}
+%\renewcommand{\familydefault}{\sfdefault}
+\usepackage{microtype}
+\pagestyle{empty}
+\linespread{1.2}
+\begin{document}
+\frenchspacing
+\noindent
+{\LARGE 7 \TeX{} Gyre Collection}\\
+~\\
+The \TeX{} Gyre Collection is the open source counterpart of the proprietary
+Post\-Script ``core font set'' (Avant Garde, Bookman, Courier, Helvetica, New
+Century Schoolbook, Palatino, Times Roman, and Zapf Chancery). It was
+created from the clones of this set that URW donated to the the free
+software community (Gothic, Bookman, Nimbus Mono, Nimbus Sans, Century
+Schoolbook, \mbox{Palladio}, Nimbus Roman, Chancery). In the same order,
+these are the new names given to them by the \TeX{} Gyre project: Adventor,
+Bonum, Cursor, Heros, Schola, Pagella, Termes, and Chorus.  Get it?
+
+Orginally, \LaTeX{} support for these fonts was provided by the PSNFSS
+(Post\-Script New Font Selection Scheme) project that conveniently ignored
+the fact that the fonts it uses aren't really Adobe's versions but rather
+URW's versions.  That's why you can still simply \textbackslash
+usepackage\{avant, bookman, courier, helvet, newcent, palatino, times,
+and chancery\} to activate the (clones of) common PostScript fonts.
+%For more information, see psnfss2e.pdf included in every modern \LaTeX
+%distribution.
+
+The \TeX{} Gyre project makes an end to this naivety with its new naming
+scheme and makes a renewed effort to adapt and extend the core font set for
+use with \LaTeX{}.  Only four of these font families are suited for running
+text (instead of headings, listings, citations, etc.).  Here they are,
+including the proper way of using them through the \TeX{} Gyre project:
+
+\end{document}

@@ -1,0 +1,43 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{inconsolata}
+\usepackage{microtype}
+\usepackage{mflogo}
+\pagestyle{empty}
+\linespread{1.2}
+\begin{document}
+\frenchspacing
+
+\noindent
+{\LARGE 1 Computer Modern}\\
+~\\
+% Some love it, some hate it, but fact is that a
+\noindent
+The users of any \TeX{} system get the Computer Modern typeface by default in
+all their documents.  This idiosyncratic font makes \TeX{} documents
+instantly recognizable to anyone who's ever used this system and instantly
+impresses anyone else with it's timeless design.  It has very high contrast
+between thick and thin elements, very consistent and characteristic
+strokes, and relatively short ascenders and descenders.  Of course, it's
+classified as ``modern''.
+
+Computer Modern was created by Donald Knuth, the great mathematician and
+creator of \TeX, and initially released in $1978$ together with \TeX{} and
+\MF.  The latter is the programming language that he used to create Computer
+Modern.  In this language, the Computer Modern shapes are described by 62
+distinct parameters that allow the glyphs to be changed generically.  The
+idea is that certain aspects of the font can be adjusted by typesetters to
+match the type of material.  In reality, noone besides Knuth has been able
+to create such a mature and widely-used type family as Computer Modern using
+the \MF{} system, although you'll see one more \MF{} typeface further down
+this page.
+
+To use this font in \LaTeX, you don't have to do anything. However, you might consider
+to \textbackslash usepackage\{lmodern\} to obtain Latin Modern,
+a PostScript version of Computer Modern created with \MP.  It looks
+(almost) exactly the same, but provides more convenient scaling of glyphs
+among other small improvements.  But rest assured that \LaTeX{}, by default,
+gives you the best typeface available.
+
+\end{document}

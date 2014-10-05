@@ -1,0 +1,40 @@
+\documentclass{article}
+\usepackage{microtype}
+\usepackage[T1]{fontenc}
+\usepackage{libertine}
+\usepackage{anyfontsize}
+\pagestyle{empty}
+\linespread{1.2}
+\begin{document}
+\frenchspacing
+\noindent
+{\LARGE 6 Linux Libertine}\\
+~\\
+Linux Libertine is marketed by the Libertine Open Fonts Project as
+a free and open source replacement for the proprietary typeface Times New
+Roman, the default serif typeface on every Microsoft Windows platform since
+1992. Like its rival, Libertine looks like the 19th century
+book type, and includes features designed for modern use. It contains more
+than 2000 Unicode characters and supports many different
+languages. In \LaTeX, it behaves as any other expert font with oldstyle
+numerals, true small caps, kerning and ligatures.
+However, make sure to \textbackslash usepackage[T1]\{fontenc\} when using
+this typeface, because Libertine doesn't set the font encoding by default.
+%In general it's a good practice to always
+%specify the font encoding (T1 for all the fonts on this page) yourself.
+
+By the way, Libertine is the font used in the Wikipedia
+% {\fontsize{11.3}{0}\selectfont\useTextGlyph{fxl}{V.alt}\hspace{-3.6pt}\useTextGlyph{fxl}{V.alt}}\hspace{-.5pt}{\fontsize{11}{10}\selectfont\sc ikipedi}A
+logo.
+
+\sf
+The sans serif family (used in this paragraph) gets also set by
+\textbackslash usepackage\{libertine\}. This family is called Biolinum and is what software
+developers would call a \emph{beta version}---not yet suited for production
+use. It looks a little like Zapf's famous Optima typeface, due to the
+application of subtle stresses that produce the suggestion of a glyphic
+serif. Bio\-linum goes even further in this by featuring real (although
+petite) serifs at the end of some strokes. Let's see how the development will
+proceed...
+
+\end{document}

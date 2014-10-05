@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage{microtype}
+\usepackage[T1]{fontenc}
+\usepackage{antiqua}
+\usepackage[utf8]{inputenc}
+\pagestyle{empty}
+\linespread{1.2}
+\begin{document}
+\frenchspacing
+\noindent
+{\LARGE 8 URW Antiqua}\\
+~\\
+Are you ready for a little \LaTeX{} magic? Type the following into a file named \mbox{\emph{antiqua.sty}}:
+
+\begin{verbatim}
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{antiqua}
+\renewcommand{\rmdefault}{uaq}
+\renewcommand{\sfdefault}{ugq}
+\endinput
+\end{verbatim}
+
+Now simply \textbackslash{}usepackage\{antiqua\}, and your document
+will be typeset in URW Antiqua! Antiqua is little known, but still an
+original creation by Hermann Zapf. Its sans serif counterpart that
+will also be loaded by antiqua.sty is called \mbox{{\sf UWR Grotesk}}. Both
+fonts were a commercial failure in the 1980s and were later made
+available under the GNU General Public License.  The intention of this
+typeface was to be a highly legible, classical font for use in books,
+magazines, and newspapers.
+
+Don't confuse this underrated beauty with ``Book Antiqua'', which is
+Microsoft's knock-off of Zapf's Palatino typeface. (You know, the one
+that's also known as Palladio by URW and Pagella by the \TeX{} Gyre
+Project.)
+
+\end{document}
