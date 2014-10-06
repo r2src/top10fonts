@@ -3,7 +3,7 @@ Top 10 LaTeX Fonts
 
 Instead of working on my thesis, I created this project to showcase the beauty and history of the most popular LaTeX fonts. Every font is described by a paragraph that is also set in that font, made possible by the dvipng utility that creates PNG images from DVI originals.
 
-You can view the result on https://github.com/r2src/top10fonts/
+You can view the result on http://r2src.github.io/top10fonts/
 
 Creating the images
 -------------------
