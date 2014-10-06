@@ -1,35 +1,27 @@
-*
-{
-  margin: 0px;
-  padding: 0px;
-}
-
-body
-{
+body {
   width: 720px;
   margin: 50px auto;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, Palladia, Pagella, serif;
   font-size: 20px;
-  background: #fff;
 }
 
-h1
-{
+h1 {
   font-size: 2em;
+  padding: 0;
+  margin: 0;
 }
-
-h2
-{
-  font-size: 1.5em;
-  padding: 0em 0em 0.2em;
+h2 {
+  font-weight: normal;
+  font-size: 1.25em;
+  padding: 0;
+  margin: 0;
 }
 
 img {
   width: 720px;
 }
 
-p
-{
+p {
   padding: 0.5em 0em;
 }
 
@@ -38,13 +30,11 @@ A:visited {text-decoration: none}
 A:active {text-decoration: none}
 A:hover {text-decoration: underline;}
 
-.latex
-{
+.latex {
   letter-spacing: 1px;
 }
 
-.latex sup
-{
+.latex sup {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 0.85em;
@@ -59,35 +49,4 @@ A:hover {text-decoration: underline;}
   margin-left: -0.1667em;
   margin-right: -0.125em;
   font-size: 1em;
-}
-
-.comments
-{
-  font-size: 22px;
-}
-
-.comments input[name="Name"]
-{
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  font-size: 22px;
-  font-weight: bold;
-}
-
-.comments textarea
-{
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  font-size: 22px;
-}
-
-.comments input[name="Answer"]
-{
-  font-size: 22px;
-  font-family: sans-serif;
-  width: 10em;
-}
-
-.comments input
-{
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  font-size: 28px;
 }
