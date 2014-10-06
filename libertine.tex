@@ -2,7 +2,7 @@
 \usepackage{microtype}
 \usepackage[T1]{fontenc}
 \usepackage{libertine}
-\usepackage{anyfontsize}
+%\usepackage{anyfontsize}
 \pagestyle{empty}
 \linespread{1.2}
 \begin{document}
@@ -23,18 +23,16 @@ this typeface, because Libertine doesn't set the font encoding by default.
 %In general it's a good practice to always
 %specify the font encoding (T1 for all the fonts on this page) yourself.
 
-By the way, Libertine is the font used in the Wikipedia
-% {\fontsize{11.3}{0}\selectfont\useTextGlyph{fxl}{V.alt}\hspace{-3.6pt}\useTextGlyph{fxl}{V.alt}}\hspace{-.5pt}{\fontsize{11}{10}\selectfont\sc ikipedi}A
+By the way, Libertine is the font used in the
+{\fontsize{11.3}{0}\selectfont V\hspace{-4.6pt}V}\hspace{-.5pt}{\fontsize{11}{10}\selectfont\sc ikipedi}A
 logo.
 
-\sf
-The sans serif family (used in this paragraph) gets also set by
-\textbackslash usepackage\{libertine\}. This family is called Biolinum and is what software
-developers would call a \emph{beta version}---not yet suited for production
-use. It looks a little like Zapf's famous Optima typeface, due to the
-application of subtle stresses that produce the suggestion of a glyphic
-serif. Bio\-linum goes even further in this by featuring real (although
-petite) serifs at the end of some strokes. Let's see how the development will
-proceed...
+\sf The sans serif family (used in this paragraph) set by
+\textbackslash usepackage\{libertine\} is called Biolinum. As you can
+see, it's perhaps the most beautiful sans serif typeface available to
+\LaTeX{} users. It looks a little like Zapf's Optima, due to
+the application of subtle stresses that produce the suggestion of a
+glyphic serif. Bio\-linum goes even further in this by featuring real
+(although petite) serifs at the end of some strokes.
 
 \end{document}
